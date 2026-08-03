@@ -1,81 +1,99 @@
-# 🔥 Forest Fire Prediction Using Random Forest Classifier
+# 🔥 Forest Fire Prediction Using Random Forest
 
-## 📌 Overview
-
-This project predicts the occurrence of forest fires using a **Random Forest Classifier**. The model is trained on the **Algerian Forest Fires Dataset** and uses weather and Fire Weather Index (FWI) parameters to classify whether a fire is likely to occur.
-
-The project covers the complete machine learning workflow, including data preprocessing, visualization, model training, evaluation, and prediction.
+A Machine Learning project that predicts the occurrence of forest fires using the **Random Forest Classifier**. The project includes data preprocessing, exploratory data analysis (EDA), model training, evaluation, feature importance analysis, and prediction.
 
 ---
 
-## 🚀 Features
+# 📌 Overview
 
-* Data Cleaning and Preprocessing
-* Exploratory Data Analysis (EDA)
-* Fire vs No Fire Classification
-* Random Forest Machine Learning Model
-* Feature Importance Analysis
-* Confusion Matrix Visualization
-* Classification Report
-* Model Saving using Pickle
-* Prediction Output CSV Generation
+Forest fires can cause significant environmental and economic damage. This project uses the **Algerian Forest Fires Dataset** to build a classification model capable of predicting whether a fire is likely to occur based on weather and Fire Weather Index (FWI) parameters.
 
 ---
 
-## 📂 Dataset
+# 📸 Project Screenshots
+
+## 🔥 Fire vs Not Fire Distribution
+
+![Fire Distribution](fire_distribution.png)
+
+---
+
+## 📊 Correlation Heatmap
+
+![Correlation Heatmap](correlation_heatmap.png)
+
+---
+
+## 📉 Confusion Matrix
+
+![Confusion Matrix](confusion.png)
+
+---
+
+## 📈 Feature Importance
+
+![Feature Importance](feature_importance.png)
+
+---
+
+# 🚀 Features
+
+- ✅ Data Cleaning & Preprocessing
+- ✅ Exploratory Data Analysis (EDA)
+- ✅ Fire vs Not Fire Classification
+- ✅ Random Forest Classifier
+- ✅ Feature Importance Analysis
+- ✅ Confusion Matrix Visualization
+- ✅ Classification Report
+- ✅ Model Saving using Pickle
+- ✅ Prediction Output CSV Generation
+
+---
+
+# 📂 Dataset
 
 **Dataset:** Algerian Forest Fires Dataset
 
 The dataset contains weather observations and Fire Weather Index (FWI) measurements collected from two regions of Algeria.
 
-Target Variable:
+**Target Classes**
 
-* **Fire**
-* **Not Fire**
-
----
-
-## 🛠 Technologies Used
-
-* Python
-* Pandas
-* NumPy
-* Matplotlib
-* Seaborn
-* Scikit-learn
-* Pickle
+- 🔥 Fire
+- 🌳 Not Fire
 
 ---
 
-## 📊 Visualizations
+# 🛠 Technologies Used
 
-The project generates the following visualizations:
-
-* 🔥 Fire vs Not Fire Distribution
-* 📈 Feature Importance
-* 📉 Confusion Matrix
-
----
-
-## 🤖 Machine Learning Model
-
-Algorithm Used:
-
-* **Random Forest Classifier**
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Pickle
 
 ---
 
-## 📈 Model Evaluation
+# 🤖 Machine Learning Model
 
-The model is evaluated using:
+**Algorithm Used**
 
-* Accuracy Score
-* Classification Report
-* Confusion Matrix
+- Random Forest Classifier
 
 ---
 
-## 📁 Project Structure
+# 📊 Model Evaluation
+
+The model was evaluated using:
+
+- Accuracy Score
+- Classification Report
+- Confusion Matrix
+
+---
+
+# 📁 Project Structure
 
 ```text
 Forest-Fire-Prediction-Using-Random-Forest/
@@ -87,6 +105,7 @@ Forest-Fire-Prediction-Using-Random-Forest/
 ├── random_forest_model.pkl
 ├── Forest_Fire_Output.csv
 ├── fire_distribution.png
+├── correlation_heatmap.png
 ├── confusion.png
 ├── feature_importance.png
 └── README.md
@@ -94,21 +113,21 @@ Forest-Fire-Prediction-Using-Random-Forest/
 
 ---
 
-## ▶️ How to Run
+# ▶️ How to Run
 
-Clone the repository:
+### 1. Clone Repository
 
 ```bash
 git clone https://github.com/Itsjanvi/Forest-Fire-Prediction-Using-Random-Forest.git
 ```
 
-Install dependencies:
+### 2. Install Dependencies
 
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn
 ```
 
-Run the project:
+### 3. Run the Project
 
 ```bash
 python forest_fire_prediction.py
@@ -116,30 +135,32 @@ python forest_fire_prediction.py
 
 ---
 
-## 📌 Output
+# 📤 Output
 
 The project generates:
 
-* Trained Random Forest Model (`random_forest_model.pkl`)
-* Prediction Output CSV (`Forest_Fire_Output.csv`)
-* Confusion Matrix Image
-* Feature Importance Graph
-* Fire Distribution Graph
+- ✅ Trained Random Forest Model (`random_forest_model.pkl`)
+- ✅ Prediction Output CSV (`Forest_Fire_Output.csv`)
+- ✅ Fire Distribution Graph
+- ✅ Correlation Heatmap
+- ✅ Confusion Matrix
+- ✅ Feature Importance Graph
 
 ---
 
-## 🔮 Future Improvements
+# 🔮 Future Improvements
 
-* Hyperparameter Tuning
-* Cross Validation
-* Flask Web Application
-* Real-time Forest Fire Prediction
-* Deployment on Streamlit
+- Hyperparameter Tuning
+- Cross Validation
+- Streamlit Web Application
+- Real-Time Forest Fire Prediction
+- Cloud Deployment
 
 ---
 
-## 👩‍💻 Author
+# 👩‍💻 Author
+janvi
 
 **Janvi**
 
-If you found this project useful, don't forget to ⭐ the repository!
+If you found this project helpful, consider giving this repository a ⭐ on GitHub!
