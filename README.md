@@ -159,7 +159,7 @@ The project generates:
 ---
 
 # 👩‍💻 Author
-janvi
+
 
 **Janvi**
 
